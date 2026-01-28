@@ -1,10 +1,17 @@
-public class HelloWorld {
+1.public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello World! Java setup successful.");
     }
 }
 
-class TemperatureConverter {
+output
+    [Running] cd "c:\Users\manik\Desktop\" && javac HelloWorld.java && java HelloWorld
+Hello World! Java setup successful.
+
+[Done] exited with code=0 in 2.068 seconds
+
+
+2.class TemperatureConverter {
     public static void main(String[] args) {
 
         // Declare variable
@@ -18,7 +25,15 @@ class TemperatureConverter {
     }
 }
 
-class EvenOddChecker {
+output
+    [Running] cd "c:\Users\manik\Desktop\" && javac TemperatureConverter.java && java TemperatureConverter
+98.60 F = 37.00 C
+
+[Done] exited with code=0 in 1.069 seconds
+
+
+
+3.class EvenOddChecker {
     public static void main(String[] args) {
 
         int number = 27;
@@ -30,7 +45,16 @@ class EvenOddChecker {
     }
 }
 
-class MultiplicationTable {
+
+output
+    [Running] cd "c:\Users\manik\Desktop\" && javac EvenOddChecker.java && java EvenOddChecker
+27 is Odd
+
+[Done] exited with code=0 in 0.946 seconds
+
+
+
+4.class MultiplicationTable {
     public static void main(String[] args) {
 
         int num = 32;
@@ -41,7 +65,22 @@ class MultiplicationTable {
     }
 }
 
-class DigitCounter {
+output
+[Running] cd "c:\Users\manik\" && javac MultiplicationTable.java && java MultiplicationTable
+30 x 1 = 30
+30 x 2 = 60
+30 x 3 = 90
+30 x 4 = 120
+30 x 5 = 150
+30 x 6 = 180
+30 x 7 = 210
+30 x 8 = 240
+30 x 9 = 270
+30 x 10 = 300
+
+[Done] exited with code=0 in 0.942 seconds
+
+5.class DigitCounter {
     public static void main(String[] args) {
 
         int number = 12345;
@@ -55,8 +94,15 @@ class DigitCounter {
         System.out.println("Total digits: " + count);
     }
 }
+output
+    [Running] cd "c:\Users\manik\Desktop\" && javac DigitCounter.java && java DigitCounter
+Total digits: 5
 
-class FibonacciSeries {
+[Done] exited with code=0 in 0.908 seconds
+
+
+
+6.class FibonacciSeries {
     public static void main(String[] args) {
 
         int n = 10;
@@ -73,8 +119,14 @@ class FibonacciSeries {
         }
     }
 }
+output
+    [Running] cd "c:\Users\manik\Desktop\" && javac FibonacciSeries.java && java FibonacciSeries
+Fibonacci Series: 0 1 1 2 3 5 8 13 21 34 
+[Done] exited with code=0 in 1.063 seconds
 
-class PrimeChecker {
+
+
+7.class PrimeChecker {
     public static void main(String[] args) {
 
         int num = 29;
@@ -94,8 +146,13 @@ class PrimeChecker {
         System.out.println(num + (isPrime ? " is Prime" : " is Not Prime"));
     }
 }
+output
+    [Running] cd "c:\Users\manik\" && javac PrimeChecker.java && java PrimeChecker
+29 is Prime
 
-class DayFinder {
+[Done] exited with code=0 in 1.084 seconds
+
+8.class DayFinder {
     public static void main(String[] args) {
 
         int day = 3;
@@ -113,7 +170,13 @@ class DayFinder {
     }
 }
 
-class ArrayOperations {
+output
+    [Running] cd "c:\Users\manik\" && javac DayFinder.java && java DayFinder
+Wednesday
+
+[Done] exited with code=0 in 0.882 seconds
+
+9.class ArrayOperations {
     public static void main(String[] args) {
 
         int[] numbers = {5, 2, 9, 1, 5};
@@ -126,8 +189,14 @@ class ArrayOperations {
         System.out.println("Sum of array elements: " + sum);
     }
 }
+output
+    [Running] cd "c:\Users\manik\" && javac ArrayOperations.java && java ArrayOperations
+Sum of array elements: 22
 
-class CircleOperations {
+[Done] exited with code=0 in 1.14 seconds
+
+
+10.class CircleOperations {
     public static void main(String[] args) {
 
         double radius = 7.5;
@@ -144,3 +213,10 @@ class CircleOperations {
         return 2 * Math.PI * r;
     }
 }
+output
+    [Running] cd "c:\Users\manik\" && javac CircleOperations.java && java CircleOperations
+Area: 176.71458676442586
+Circumference: 47.12388980384689
+
+[Done] exited with code=0 in 1.153 seconds
+
